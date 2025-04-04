@@ -20,4 +20,4 @@ with NovaAct(starting_page="https://demo.openemr.io/openemr/interface/login/logi
 
     medical_problem_list = MedicalProblemList.model_validate(result.parsed_response)
 
-    print(f"Clinical Reminder List: {medical_problem_list}")
+    print(f"Medical Problem List: {medical_problem_list}")
